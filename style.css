@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  a {
+    color: #cdca21;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    background: #F08080;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  
+  /* Navigation Menu */
+  .nav-menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu ul li {
+    margin-left: 15px;
+  }
+  
+  .nav-menu ul li a {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu ul li a:hover {
+    color: white;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #507687;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  #about p {
+    color: #F5FFFA;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #FCFAEE;
+    padding: 4rem 0;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill-card {
+    background-color: #FFF8E1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #F4F4F9;
+    padding: 4rem 0;
+  }
+  
+  .project-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #528f9c;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  #contact a {
+    color: #000000;
+    font-weight: bold;
+  }
+  #hero{
+    background-color: rgb(22, 165, 86);
+  }
+  #skills{
+    background-color: rgb(37, 172, 172);
+  }
+  #projects{
+    background-color: rgb(135, 132, 128);
+  }
+  .skills-grid{
+    
+  }
+
+
+  
